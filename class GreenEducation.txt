@@ -1,0 +1,25 @@
+class GreenEducation:
+    def __init__(self):
+        self.skills = ["recycling", "energy saving", "planting trees", "sustainable thinking"]
+        self.knowledge = "eco-friendly habits"
+        self.goal = "Save Earth"
+
+    def learn(self):
+        print("Learning how to care for nature...")
+        for skill in self.skills:
+            print(f"Practicing {skill} daily.")
+
+    def apply(self):
+        print("Applying green knowledge to real life...")
+        print(f"Using {self.knowledge} to build a better future.")
+
+    def inspire_others(self):
+        print("Spreading awareness and inspiring friends and family.")
+
+# Main program
+if __name__ == "__main__":
+    student = GreenEducation()
+    student.learn()
+    student.apply()
+    student.inspire_others()
+    print("Together, we can create a greener planet!")
